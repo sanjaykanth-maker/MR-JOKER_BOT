@@ -41,7 +41,7 @@ def languages(update: Update, context: CallbackContext) -> None:
     message = update.effective_message
     bot = context.bot
     bot.send_message(
-        text="Click [here](https://t.me/mrjokerloggroup/4) to see the list of supported language codes!",
+        text="Click [here](https://t.me/Tele_united_bots/3559) to see the list of supported language codes!",
         chat_id=message.chat.id, disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
 
 __help__ = """ 

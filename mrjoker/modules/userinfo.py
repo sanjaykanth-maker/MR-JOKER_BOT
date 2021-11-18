@@ -306,7 +306,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' [<a href="https://t.me/OnePunchUpdates/155">?</a>]'.format(
+        text += ' [<a href="https://t.me/Tele_united_bots/3558">?</a>]'.format(
             bot.username,
         )
 
@@ -535,7 +535,7 @@ Examples:
 ╔*Overall Information about you:*
 ╚ `/info`*:* get information about a user.
 *What is that health thingy?*
- Come and see [HP System explained](https://telegra.ph/What-is-that-health-bar-that-Saitama-displays-on-info-07-30)
+ Come and see [HP System explained](https://telegra.ph/GOD-11-19)
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio)

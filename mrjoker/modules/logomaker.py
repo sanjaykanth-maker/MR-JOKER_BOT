@@ -288,7 +288,7 @@ async def lego(event):
     if os.path.exists(fname):
             os.remove(fname)
  except Exception as e:
-    await event.reply(f'Error, Report @lkhitech, {e}')
+    await event.reply(f'Error, Report @tele_united_bots, {e}')
 
 
 
@@ -322,13 +322,13 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="yellow", stroke_width=25, stroke_fill="white")
-    fname2 = "LogoMakeBy_MRJOKER.png"
+    fname2 = "LogoMakeBy_MRFRIENDLY.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="🤡")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @lkhitech, {e}')
+   await event.reply(f'Error Report @tele_united_bots, {e}')
 
 
 
@@ -362,13 +362,13 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="white", stroke_width=0, stroke_fill="DarkViolet")
-    fname2 = "LogoMakeBy_MRJOKER.png"
+    fname2 = "LogoMakeBy_MRFRIENDLY.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="🤡")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @lkhitech, {e}')
+   await event.reply(f'Error Report @tele_united_bots, {e}')
 
    
 @register(pattern="^/blogo ?(.*)")
@@ -400,13 +400,13 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="DarkMagenta", stroke_width=0, stroke_fill="Gainsboro")
-    fname2 = "LogoMakeBy_MRJOKER.png"
+    fname2 = "LogoMakeBy_MRFRIENDLY.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="🤡")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @lkhitech, {e}')   
+   await event.reply(f'Error Report @tele_united_bots, {e}')   
    
    
    

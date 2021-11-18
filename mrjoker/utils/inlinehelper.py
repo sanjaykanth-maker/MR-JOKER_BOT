@@ -54,9 +54,9 @@ async def inline_help_func(__HELP__):
     answerss = [
         InlineQueryResultArticle(
             title="𝐈𝐧𝐥𝐢𝐧𝐞 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬",
-            description="𝙈𝙧.𝙅𝙤𝙠𝙚𝙧 𝙃𝙚𝙡𝙥 𝙍𝙚𝙡𝙖𝙩𝙚𝙙 𝙏𝙤 𝙄𝙣𝙡𝙞𝙣𝙚 𝙐𝙨𝙖𝙜𝙚",
+            description="𝙈𝙧.*friendly* 𝙃𝙚𝙡𝙥 𝙍𝙚𝙡𝙖𝙩𝙚𝙙 𝙏𝙤 𝙄𝙣𝙡𝙞𝙣𝙚 𝙐𝙨𝙖𝙜𝙚",
             input_message_content=InputTextMessageContent(__HELP__),
-            thumb_url="https://telegra.ph/file/6525d89de5b72003d80fa.png",
+            thumb_url="https://telegra.ph//file/8de38382b2eb3cce40192.png",
             reply_markup=buttons,
         )
     ]
@@ -73,7 +73,7 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[๓r.ว໐kēr 🤡](https://github.com/kjeymax/MR-JOKER_BOT):**
+**[๓r.ғʀἷἔᾗḋłẏ 🤡](https://telegra.ph/file/5f12d4ccf9ad5df413e2f.mp4):**
 **MainBot:** `{bot_state}`
 **UserBot:** `Alive`
 **Python:** `3.9`
@@ -86,7 +86,7 @@ async def alive_function(answers):
         InlineQueryResultArticle(
             title="𝐀𝐥𝐢𝐯𝐞",
             description="𝘾𝙝𝙚𝙘𝙠 𝘽𝙤𝙩❜𝙨 𝙎𝙩𝙖𝙩𝙨",
-            thumb_url="https://telegra.ph/file/6525d89de5b72003d80fa.png",
+            thumb_url="https://telegra.ph//file/8de38382b2eb3cce40192.png",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),
